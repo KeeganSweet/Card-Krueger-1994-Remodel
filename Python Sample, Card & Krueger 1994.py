@@ -12,7 +12,7 @@ The study observes a New Jersey minimum wage increase effective April, 1992. Nea
 
 This sample demonstrates basic Python capability within Spyder, the Pandas library, multiple regression models, and difference-in-differences analysis. Three models are created with increasing exogenous variables to demonstrate various statistical effects. Run the models separately to view the respective results in the terminal (model1, model2, model3).
 
-Last Updated: Fri, Aug 25 11:55EST, 2023'
+Last Updated: Tue, May 21 9:04EST, 2024'
 """
 
 # importing numpy & pandas libraries as aliases
@@ -84,7 +84,7 @@ model2.summary(yname=("FTE"), xname=("intercept", "New Jersey",
                "After April 92", "NJ after April 92", "BK", "KFC", "Wendys"))
 
 # Removed Roys. Strong multicollinearity eliminated in 2nd model.
-# Introducing more independent variables has kept the FTE correlation with the wage increase constant while decreasing the p-value.
+# Introducing more independent variables has kept the FTE correlation with the wage increase constant while increasing the significance.
 
 # Let's add a few more x-variables for our 3rd model. Now we'll include whether a restaurant was franchised or company owned and if it was located in South or central NJ:
 X = dataset.loc[:, ['NJ', 'POST_APRIL92', 'NJ_POST_APRIL92',
@@ -94,4 +94,4 @@ model3 = sm.OLS(Y, X).fit()
 model3.summary(yname=("FTE"), xname=("intercept", "New Jersey", "After April 92",
                "NJ after April 92", "BK", "KFC", "Wendys", 'co_owned', 'centralj', 'southj'))
 
-# More x-variables have resulted in a lower p-value while again maintaining the regression coefficient of the effect of wage on FTE. This brief case study shows us that increasing independent variables decreases the p-value, while maintaining a relatively consistent change in employment. Though we didn't reach the required p-value in our demonstration, an acceptable p-value was achieved in the actual study by using considerably more independent variables to measure. The Card & Krueger study was significant in disproving traditional economic theory: that employment DID NOT fall from an increase in minimum wage, but rather: rose.
+# More x-variables have resulted in a higher significance while again maintaining the regression coefficient of the effect of wage on FTE. This brief case study shows us that increasing independent variables increases the significance, while maintaining a relatively consistent change in employment. Though we didn't reach the required significance in our demonstration, an acceptable level was achieved in the study by using considerably more independent variables to measure. The Card & Krueger study was significant in disproving traditional economic theory: that employment DID NOT fall from an increase in minimum wage, but rather: rose.
