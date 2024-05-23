@@ -5,6 +5,8 @@ Created on Thu Aug 24 12:34:14 2023
 @author: Keegan Sweet
 
 Description:
+
+Card, D. & Krueger, A. (1994, September), Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania, American Economic Review, 84(4), 772-793
     
 This is a Python recreation of a popular labor market study conducted by economists, David Card and Alan B. Krueger, published in the American Economic Review journal in 1994. The study, and Krueger's prior work, challenge conventional labor economic theory: that unemployment will rise with minimum wage. 
 
@@ -12,7 +14,7 @@ The study observes a New Jersey minimum wage increase effective April, 1992. Nea
 
 This sample demonstrates basic Python capability within Spyder, the Pandas library, multiple regression models, and difference-in-differences analysis. Three models are created with increasing exogenous variables to demonstrate various statistical effects. Run the models separately to view the respective results in the terminal (model1, model2, model3).
 
-Last Updated: Tue, May 21 9:04EST, 2024'
+Last Updated: Thu, May 23 2:29EST, 2024'
 """
 
 # importing numpy & pandas libraries as aliases
