@@ -18,7 +18,7 @@ The study observes a New Jersey minimum wage increase effective April, 1992. Nea
 
 This sample demonstrates basic Python capability within Spyder, various statistical libraries, multiple regression models, and difference-in-differences analysis. Three models are created with increasing exogenous variables to demonstrate various statistical effects. Run the models sequentially to view the respective results in the terminal (model1, model2, model3).
 
-Last Updated: Sat, May 25 12:24EST, 2023'
+Last Updated: Sat, May 25 12:24EST, 2024
 """
 
 # importing numpy & pandas libraries as aliases
