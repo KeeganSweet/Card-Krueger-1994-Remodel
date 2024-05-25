@@ -14,11 +14,11 @@ Description:
     
 This is a Python recreation of a popular labor market study conducted by economists, David Card and Alan B. Krueger, published in the American Economic Review journal in 1994. The study, and Krueger's prior work, challenge conventional labor economic theory: that unemployment will rise with minimum wage. 
 
-The study observes a New Jersey minimum wage increase effective April, 1992. Nearby Eastern Pennsylvania did not experience a rise in minimum wage, and was selected as a control group for its high level of homogeneity with New Jersey. The study found that employment did not drop as a result of minimum wage, and had even marginally risen. The unconventional nature of the results lead to the article being cited 4,826 times since 1994 (Google Scholar citation metrics). The study is also a popular exhibit of difference-in-difference analysis, one clear time-shift, and homogenous populations with low confounding variables (fast-food restaurants).
+The study observes a New Jersey minimum wage increase effective April, 1992. Nearby Eastern Pennsylvania did not experience a rise in minimum wage, and was selected as a control group for its high level of homogeneity with New Jersey. The study found that employment did not drop as a result of minimum wage, and had even, marginally risen. The unconventional nature of the results lead to the article being cited 4,826 times since 1994 (Google Scholar citation metrics). The study is also a popular exhibit of difference-in-difference analysis, one clear time-shift, and homogenous populations with low confounding variables (fast-food restaurants).
 
-This sample demonstrates basic Python capability within Spyder, the Pandas library, multiple regression models, and difference-in-differences analysis. Three models are created with increasing exogenous variables to demonstrate various statistical effects. Run the models separately to view the respective results in the terminal (model1, model2, model3).
+This sample demonstrates basic Python capability within Spyder, various statistical libraries, multiple regression models, and difference-in-differences analysis. Three models are created with increasing exogenous variables to demonstrate various statistical effects. Run the models sequentially to view the respective results in the terminal (model1, model2, model3).
 
-Last Updated: Thu, May 23 2:29EST, 2024'
+Last Updated: Sat, May 25 12:24EST, 2023'
 """
 
 # importing numpy & pandas libraries as aliases
