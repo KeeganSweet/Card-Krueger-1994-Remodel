@@ -4,9 +4,13 @@ Created on Thu Aug 24 12:34:14 2023
 
 @author: Keegan Sweet
 
-Description:
-
+Reference:
+    
 Card, D. & Krueger, A. (1994, September). "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania". American Economic Review, 84(4), 772-793.
+
+csv data attached in GitHub
+
+Description:
     
 This is a Python recreation of a popular labor market study conducted by economists, David Card and Alan B. Krueger, published in the American Economic Review journal in 1994. The study, and Krueger's prior work, challenge conventional labor economic theory: that unemployment will rise with minimum wage. 
 
