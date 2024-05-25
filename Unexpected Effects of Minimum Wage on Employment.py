@@ -8,7 +8,7 @@ Reference:
     
 Card, D. & Krueger, A. (1994, September). "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania". American Economic Review, 84(4), 772-793.
 
-csv data attached in GitHub
+csv data attached in GitHub.
 
 Description:
     
